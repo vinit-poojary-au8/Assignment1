@@ -1,0 +1,23 @@
+.round{
+    border-radius: 10px !important;
+}
+
+.img-card{
+    width: 30px;
+    margin: 5px 0px;
+}
+.custom-card{
+    margin: 20px;
+    width: 13rem;
+    height: 16rem;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

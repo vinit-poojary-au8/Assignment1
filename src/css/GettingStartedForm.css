@@ -1,0 +1,90 @@
+.getting-container {
+	background-color: #19191b;
+	padding: 100px 550px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.getting-h1 {
+	color: white;
+	font-size: 55px;
+}
+
+.button-size {
+	width: 100%;
+}
+.getting-p {
+	color: white;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+	/*Tablets [601px -> 1200px]*/
+	.getting-container {
+		background-color: #19191b;
+		padding: 100px 450px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.getting-h1 {
+		color: white;
+		font-size: 55px;
+	}
+
+	.button-size {
+		width: 100%;
+	}
+	.getting-p {
+		color: white;
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	/*Big smartphones [426px -> 600px]*/
+	.getting-container {
+		background-color: #19191b;
+		padding: 80px 50px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.getting-h1 {
+		color: white;
+		font-size: 35px;
+	}
+
+	.button-size {
+		width: 100%;
+	}
+	.getting-p {
+		color: white;
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	/*Small smartphones [325px -> 425px]*/
+	.getting-container {
+		background-color: #19191b;
+		padding: 80px 50px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.getting-h1 {
+		color: white;
+		font-size: 25px;
+	}
+
+	.button-size {
+		width: 100%;
+	}
+	.getting-p {
+		color: white;
+		font-size: 16px;
+	}
+}
